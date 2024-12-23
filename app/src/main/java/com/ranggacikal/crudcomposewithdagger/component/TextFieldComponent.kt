@@ -41,7 +41,6 @@ fun CustomTextField(
         label = { Text(text = label) } ,
         placeholder = { Text(text = placeholder) },
         colors = TextFieldDefaults.textFieldColors(AppColors.mBlack),
-        shape = CircleShape,
         keyboardOptions = KeyboardOptions.Default.copy(
             imeAction = ImeAction.Done
         ),
